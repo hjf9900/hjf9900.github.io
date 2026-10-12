@@ -1,0 +1,12 @@
+title: 我的博客
+subtitle: ''
+description: ''
+author: heshan
+language: zh-CN
+timezone: 'Asia/Shanghai'
+theme: landscape
+# 网址
+
+url: https://hjf99.github.io
+root: /blog/
+permalink: :year/:month/:day/:title/
