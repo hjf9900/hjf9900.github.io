@@ -7,6 +7,6 @@ timezone: 'Asia/Shanghai'
 theme: landscape
 # 网址
 
-url: https://robetthjf.github.io
+url: https://hjf9900.github.io
 root: /
 permalink: :year/:month/:day/:title/
