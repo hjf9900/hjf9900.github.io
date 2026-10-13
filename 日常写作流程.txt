@@ -13,7 +13,7 @@ git add .
 git commit -m "post: 文章标题"
 git push
 
-推送后 Actions 自动构建，一两分钟后刷新 https://robetthjf.github.io/ 就能看到新文章。不需要手动 hexo generate，那是本地预览用的。
+推送后 Actions 自动构建，一两分钟后刷新 https://hjf9900.github.io/ 就能看到新文章。不需要手动 hexo generate，那是本地预览用的。
 本地预览
 
 想先看看效果再推：
