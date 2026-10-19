@@ -1,12 +1,22 @@
-title: 我的博客
+title: hjf9900的GitHub博客
 subtitle: ''
 description: ''
 author: heshan
 language: zh-CN
 timezone: 'Asia/Shanghai'
-theme: landscape
+theme: next
 # 网址
 
 url: https://hjf9900.github.io
 root: /
 permalink: :year/:month/:day/:title/
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
