@@ -33,6 +33,6 @@ ZQ-Chat 是一个真正的端到端加密聊天系统。采用无数据库架构
     浏览器直接访问 https://c.lzbhjf.top
     
     手机客户端：zq-chat1.1.apk 已内置服务器网址，可点右上角更改设置。
-   [点击下载手机客户端](/downloads/zq-chat.1.1.apk)
+   [点击下载手机客户端](/downloads/zq-chat1.1.apk)
     
 
