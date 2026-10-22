@@ -4,13 +4,13 @@
 bash
 
 cd ~/Blog
-hexo new "文章标题"
+hexo new "magisk"
 
-编辑 source/_posts/文章标题.md，写完保存，然后：
+编辑 source/_posts/magisk.md，写完保存，然后：
 bash
 
 git add .
-git commit -m "post: 文章标题"
+git commit -m "post: magisk"
 git push
 
 推送后 Actions 自动构建，一两分钟后刷新 https://hjf9900.github.io/ 就能看到新文章。不需要手动 hexo generate，那是本地预览用的。
