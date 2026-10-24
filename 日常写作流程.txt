@@ -22,3 +22,33 @@ bash
 hexo clean && hexo server
 
 打开 http://localhost:4000 预览，满意了再 git push。
+#####################################################
+第二步：在文章中设置标签与分类
+
+页面建好后，还需要在具体文章里打上标记。打开你正在写的文章（在 source/_posts/ 下），在顶部的 Front-matter 区域添加：
+yaml
+
+---
+title: 我的文章
+date: 2026-10-24 12:00:00
+tags:
+  - 标签A
+  - 标签B
+categories:
+  - 分类A
+---
+
+这里有几个关键区别：
+
+    标签 (tags)：是平级的。一篇文章可以有多个标签，比如 [Hexo, Next, 教程]，它们之间没有从属关系。
+
+    分类 (categories)：是有层级的。如果你写：
+    yaml
+
+    categories:
+      - 技术
+      - Hexo
+
+    这表示文章属于“技术”大类下的“Hexo”子类。如果想让它们平级，需要用列表格式 - [技术] 和 - [Hexo]。
+
+完成以上两步后，本地运行 hexo clean && hexo server 预览，菜单里应该就能看到标签和分类，点进去也能看到对应的文章汇总了。确认无误后再 git push 推送到 GitHub。
